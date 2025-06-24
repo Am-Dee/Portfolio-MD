@@ -190,3 +190,170 @@ td {
   margin: 0px 20px;
   font-size: 25px;
 }
+
+/* media query for different screen-size for mobile and tablets */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headerDiv {
+    top: -50px;
+  }
+
+  .project-grid {
+    padding: 0px 20px;
+  }
+
+  .profilepic {
+    width: 80vw;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerHome {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin: 0px 20px;
+  }
+
+  .headerDiv {
+    top: -30px;
+  }
+
+  .project-grid {
+    padding: 0px 10px;
+  }
+
+  .profilepic {
+    width: 90vw;
+  }
+
+  .containerHome {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    margin: 0px 10px;
+  }
+
+  .headerDiv {
+    top: -20px;
+  }
+
+  .project-grid {
+    padding: 0px 5px;
+  }
+
+  .profilepic {
+    width: 95vw;
+  }
+
+  .containerHome {
+    padding: 5px;
+  }
+}
+
+/* media query for minimum screen-sizes */
+
+@media (min-width: 769px) {
+  .headerDiv {
+    top: -90px;
+  }
+
+  .project-grid {
+    padding: 0px 100px;
+  }
+
+  .profilepic {
+    width: 30vw;
+  }
+
+  .containerHome {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerDiv {
+    top: -90px;
+  }
+
+  .project-grid {
+    padding: 0px 150px;
+  }
+
+  .profilepic {
+    width: 25vw;
+  }
+
+  .containerHome {
+    padding: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .headerDiv {
+    top: -90px;
+  }
+
+  .project-grid {
+    padding: 0px 200px;
+  }
+
+  .profilepic {
+    width: 20vw;
+  }
+
+  .containerHome {
+    padding: 100px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .headerDiv {
+    top: -90px;
+  }
+
+  .project-grid {
+    padding: 0px 250px;
+  }
+
+  .profilepic {
+    width: 15vw;
+  }
+
+  .containerHome {
+    padding: 120px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .headerDiv {
+    top: -90px;
+  }
+
+  .project-grid {
+    padding: 0px 300px;
+  }
+
+  .profilepic {
+    width: 10vw;
+  }
+
+  .containerHome {
+    padding: 150px;
+  }
+}
