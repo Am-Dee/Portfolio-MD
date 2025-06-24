@@ -1,0 +1,44 @@
+[
+  {
+    "title": "E-commerce App",
+    "description": "An e-commerce platform with React",
+    "image": "/images/ecommerce.png",
+    "link": "https://ecommerce-app.vercel.app"
+  },
+  {
+    "title": "To-Do App with authentication",
+    "description": "A To-Do App with authentication",
+    "image": "/images/ecommerce.png",
+    "link": "..."
+  },
+  {
+    "title": "Dummy Youtube Website",
+    "description": "A Blog Website with admin panel",
+    "image": "/images/ecommerce.png",
+    "link": "..."
+  },
+  {
+    "title": "Website related to infrastructure",
+    "description": "Project that I submitted during trainning",
+    "image": "/images/ecommerce.png",
+    "link": "..."
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with React",
+    "image": "/images/portfolio.png",
+    "link": "https://your-portfolio.vercel.app"
+  },
+  {
+    "title": "Calculator App ",
+    "description": "A fcalculator with React JS and its customised and pre-defined functions",
+    "image": "/images/ecommerce.png",
+    "link": "..."
+  },
+  {
+    "title": "Weather App",
+    "description": "A Weather App using API integration",
+    "image": "/images/ecommerce.png",
+    "link": "..."
+  }
+]
