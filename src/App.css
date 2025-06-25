@@ -220,49 +220,144 @@ td {
     text-align: center;
     padding: 20px;
   }
-}
 
-@media (max-width: 480px) {
-  .header {
-    margin: 0px 20px;
+  .social-icons {
+    margin-top: 20px;
   }
 
-  .headerDiv {
-    top: -30px;
-  }
-
-  .project-grid {
-    padding: 0px 10px;
-  }
-
-  .profilepic {
-    width: 90vw;
-  }
-
-  .containerHome {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 360px) {
-  .header {
+  .social-icons a {
     margin: 0px 10px;
+    font-size: 20px;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    text-align: center;
+  }
+
+  .about h2,
+  .skills h2,
+  .projects h2,
+  .contact h2 {
+    text-align: center;
+  }
+
+  .about p,
+  .skills p,
+  .projects p,
+  .contact p {
+    text-align: center;
+  }
+
+  .about ul,
+  .skills ul,
+  .projects ul,
+  .contact ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .about ul li,
+  .skills ul li,
+  .projects ul li,
+  .contact ul li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .about ul li a,
+  .skills ul li a,
+  .projects ul li a,
+  .contact ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .about ul li a:hover,
+  .skills ul li a:hover,
+  .projects ul li a:hover,
+  .contact ul li a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+    flex-direction: column;
+    align-items: center;
   }
 
   .headerDiv {
-    top: -20px;
+    top: -70px;
   }
 
   .project-grid {
-    padding: 0px 5px;
+    padding: 0px 50px;
   }
 
   .profilepic {
-    width: 95vw;
+    width: 60vw;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
   }
 
   .containerHome {
-    padding: 5px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .social-icons {
+    margin-top: 30px;
+  }
+
+  .social-icons a {
+    margin: 0px 10px;
+    font-size: 20px;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .contact {
+    text-align: center;
+  }
+
+  .about h2,
+  .skills h2,
+  .projects h2,
+  .contact h2 {
+    text-align: center;
+  }
+
+  .about p,
+  .skills p,
+  .projects p,
+  .contact p {
+    text-align: center;
+  }
+
+  .about ul,
+  .skills ul,
+  .projects ul,
+  .contact ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .about ul li,
+  .skills ul li,
+  .projects ul li,
+  .contact ul li {
+    margin: 10px 0;
+    font-size: 18px;
   }
 }
 
@@ -301,59 +396,5 @@ td {
 
   .containerHome {
     padding: 70px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .headerDiv {
-    top: -90px;
-  }
-
-  .project-grid {
-    padding: 0px 200px;
-  }
-
-  .profilepic {
-    width: 20vw;
-  }
-
-  .containerHome {
-    padding: 100px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .headerDiv {
-    top: -90px;
-  }
-
-  .project-grid {
-    padding: 0px 250px;
-  }
-
-  .profilepic {
-    width: 15vw;
-  }
-
-  .containerHome {
-    padding: 120px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .headerDiv {
-    top: -90px;
-  }
-
-  .project-grid {
-    padding: 0px 300px;
-  }
-
-  .profilepic {
-    width: 10vw;
-  }
-
-  .containerHome {
-    padding: 150px;
   }
 }
