@@ -4,7 +4,7 @@ import React from 'react';
 const Home = () => (
   <section id="home" className="home">
     <div className='containerHome' >
-      <img src="MD.jpg" alt="" className='profilepic' />
+      <img src="MD01.jpg" alt="" className='profilepic' />
     </div>
     <div className='containerHome' >
       <h2>Hi, I’m Mukul Dogra</h2>

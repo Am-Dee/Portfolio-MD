@@ -33,7 +33,7 @@ const Contact = () => {
 
 <div className="social-icons">
 <h4>Social Media links :</h4>
-  {/* <a href="https://gmail.com/" className="icons" target="_blank"><FcGoogle /></a> */}
+  <a href="https://gmail.com/" className="icons" target="_blank"><FcGoogle /></a>
   <a href="https://www.facebook.com/" className="icons" target="_blank"><FaFacebookF /></a>
   <a href="https://github.com/" className="icons" target="_blank"><FaGithub /></a>
   <a href="https://in.linkedin.com/in/mukul-dogra-646620319?trk=profile-badge" className="icons" target="_blank"><FaLinkedinIn /></a>
